@@ -3,10 +3,9 @@ package br.com.equilibrio.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import br.com.equilibrio.app.presentation.AppNavGraph
+import br.com.equilibrio.app.presentation.navigation.AppNavGraph
 import br.com.equilibrio.app.util.OnboardingDataStore
 import dagger.hilt.android.AndroidEntryPoint
 
